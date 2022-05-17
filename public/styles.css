@@ -1097,10 +1097,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 3rem;
 }
 
-.w-7\/12 {
-  width: 58.333333%;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -2494,19 +2490,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0px;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .px-1 {
@@ -2547,6 +2538,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .px-4 {
@@ -3277,6 +3273,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   content: "hello";
 }
 
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   content: "";
@@ -3285,6 +3285,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .swiper-pagination-bullet-active {
   background-color: #faf6f5 !important;
+}
+
+.swiper-slide > div > p > span {
+  font-weight: 600;
+}
+
+.swiper-slide > div > p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.swiper-slide > div > hr {
+  border-top-width: 1px;
+  border-color: #e5e7eb;
 }
 
 .placeholder\:pl-2::-moz-placeholder {
@@ -3452,10 +3466,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
-  .md\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .md\:max-w-sm {
     max-width: 24rem;
   }
@@ -3467,10 +3477,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:object-cover {
     -o-object-fit: cover;
        object-fit: cover;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
   }
 
   .md\:pt-6 {
@@ -3766,10 +3772,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 25%;
   }
 
-  .\32xl\:w-7\/12 {
-    width: 58.333333%;
-  }
-
   .\32xl\:justify-center {
     justify-content: center;
   }
@@ -3779,4 +3781,3 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 0px;
   }
 }
-

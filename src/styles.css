@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#menu-toggle:checked + #menu {
+	display: block;
+}
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
 	content: "";
@@ -12,3 +16,16 @@
 	background-color: #faf6f5 !important;
 }
 
+.swiper-slide > div > p > span {
+	font-weight: 600;
+}
+
+.swiper-slide > div > p {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.swiper-slide > div > hr {
+	border-top-width: 1px;
+	border-color: #e5e7eb;
+}
